@@ -16,6 +16,7 @@ while(passwordError == False):
         print("Error (password criteria not met)")
     else:
         passwordError = True
+        
 #adds characters to password string 
 for i in range(passwordLen):
     charTypeToUse = random.randrange(0,len(charTypes))
